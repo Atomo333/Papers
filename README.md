@@ -1,2 +1,2 @@
 # Papers
-論文をまとめておくリポジトリ：Repository for collecting papers.
+参考文献を集積するリポジトリ：Repository for collecting papers.
