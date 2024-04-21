@@ -32,7 +32,7 @@
 [[Code]](https://github.com/JihoChoi/dynamic-gcn)
 [[bibtex]](https://journals.plos.org/plosone/article/citation?id=10.1371/journal.pone.0256039)
 <details><summary>summary</summary><div>
-
+離散動的グラフを用いてフェイクニュースを検出する手法．ベースライン．
 </div></details> 
 
 ### 
