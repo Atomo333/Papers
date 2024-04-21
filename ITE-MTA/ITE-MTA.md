@@ -35,12 +35,12 @@
 離散動的グラフを用いてフェイクニュースを検出する手法．ベースライン．
 </div></details> 
 
-### 
-[[Paper]]()
+### Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation(2014):GRU
+[[Paper]](https://aclanthology.org/D14-1179.pdf)
 [[Code]]()
-[[bibtex]]()
+[[bibtex]](https://aclanthology.org/D14-1179/)
 <details><summary>summary</summary><div>
-
+Gated Reccurent Unit
 </div></details> 
 
 ##  未定
