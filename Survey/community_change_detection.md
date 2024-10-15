@@ -24,7 +24,7 @@
 
 
 ### Multi-objective based unbiased community identification in dynamic social networks (2024)
-(時間進化するソーシャルネットワークにおけるコミュニティ構造検出に関する一考察)
+(動的社会ネットワークにおける多目的ベースの不偏コミュニティ同定)
 
 [[Paper]](https://www.sciencedirect.com/science/article/pii/S0140366423004188)
 [[Code]]()
