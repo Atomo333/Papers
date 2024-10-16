@@ -14,14 +14,24 @@
 <details><summary>実装コード</summary><div>
 
 1. TGB (Temporal Graph Benchmark) Baselines[2]
+   
    このリポジトリでは、連続時間の動的グラフモデルのベンチマーキングのためのコードが提供されています。JODIE、DyRep、TGAT、TGN、CAWNなど、複数の最新モデルの実装が含まれています。
 
    GitHub: https://github.com/fpour/TGB_Baselines
 
 2. DGB (Dynamic Graph Benchmark)[5]
+   
    この研究では、動的リンク予測の評価を改善するためのツールが提案されています。新しいデータセット、新しい負例サンプリング戦略、強力なベースラインモデルなどが含まれています。
 
    GitHub: https://github.com/fpour/DGB
+
+3. DyGLib
+   
+   Dynamic Graph Library(DyGLib)は、標準のトレーニングパイプライン、拡張可能なコーディングインターフェイス、および包括的な評価戦略を備えたオープンソースのツールキットです。 これは、標準的でスケーラブルで再現性のあるダイナミックグラフ学習研究を促進することを目的としています。DyGLibには、多様なベンチマークデータセットと徹底的なベースラインが関与しています。
+
+   GitHub: https://github.com/yule-BUAA/DyGLib?tab=readme-ov-file
+   論文: https://openreview.net/forum?id=xHNzWHbklj
+
 </div></details> 
 
 # Dynamic Detection
