@@ -30,7 +30,16 @@
    Dynamic Graph Library(DyGLib)は、標準のトレーニングパイプライン、拡張可能なコーディングインターフェイス、および包括的な評価戦略を備えたオープンソースのツールキットです。 これは、標準的でスケーラブルで再現性のあるダイナミックグラフ学習研究を促進することを目的としています。DyGLibには、多様なベンチマークデータセットと徹底的なベースラインが関与しています。
 
    GitHub: https://github.com/yule-BUAA/DyGLib?tab=readme-ov-file
+   
    論文: https://openreview.net/forum?id=xHNzWHbklj
+
+4. DyGLib_TGB
+   
+   DyGLib + TGB. 11の動的グラフ学習法が使える．こちらを実装するのが良さそうか．
+
+   GitHub: https://github.com/yule-BUAA/DyGLib_TGB
+   
+   論文: https://arxiv.org/abs/2307.12510
 
 </div></details> 
 
