@@ -9,6 +9,15 @@
 - Merging (合併) :
 - Splitting (分離) : 
 
+### 他定義
+
+- Forming (形成)
+- Dissolving (溶解)
+- Growing (成長)
+- Shrinking (縮小)
+- Splitting (分裂)
+- Merging (マージ)
+- **Continuing (継続)**
 ## 使えそうなもの
 
 <details><summary>実装コード</summary><div>
@@ -40,6 +49,31 @@
    GitHub: https://github.com/yule-BUAA/DyGLib_TGB
    
    論文: https://arxiv.org/abs/2307.12510
+
+</div></details> 
+
+# Community Evolution
+
+### Research on community evolution based on node influence and multi-attribute fusion (2010) 引用0
+(ノードの影響と多属性融合に基づくコミュニティ進化に関する研究)
+
+[[Paper]](https://content.iospress.com/articles/intelligent-data-analysis/ida216485#ref004)
+[[Code]]()
+[[bibtex]]()
+
+<details><summary>abstract</summary><div>
+動的ソーシャルネットワークにおける進化イベントの識別精度が低いという問題に対して、ノードの影響と多属性融合に基づくコミュニティ進化モデル(EMNI)が提案されています。まず、ノードのトポロジカル構造情報はランダムウォークと局所クラスタリング係数によって取得され、ノードの影響はノードのトポロジカル構造に従って評価されます。次に、コミュニティ類似性判別の精度を向上させるために、多属性融合に基づくコミュニティ類似性識別方法を提案します。モデルEMNIは、コミュニティの安定性とコミュニティの違いの特性を組み合わせ、7つの進化イベントを再定義しました。最後に、コミュニティの進化イベントの特定におけるEMNIモデルの有効性が、さまざまなデータセットで検証されます。実験結果は、EMNIモデルがGED、PECT、SGCIよりも優れていることを示しており、GED、PECT、SGCIはより進化的なイベントを特定でき、イベントの分布もよりバランスが取れています。
+</div></details> 
+
+<details><summary>summary</summary><div>
+
+- コミュニティ進化というワードが含まれる論文
+- コミュニティ進化に関する検出アプローチは３つに分類されるらしい
+- コミュニティ進化の特定精度を向上させ，進化予測に関する研究の基礎を提供しているらしい
+- モデル名はEMNI
+</div></details> 
+
+<details><summary>Claudeによる要約</summary><div>
 
 </div></details> 
 
