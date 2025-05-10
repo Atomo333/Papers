@@ -60,7 +60,7 @@
 [[Paper]](https://content.iospress.com/articles/intelligent-data-analysis/ida216485#ref004)
 [[Code]]()
 [[bibtex]]()
-
+[[Connected Paper]](https://www.connectedpapers.com/main/835da7eff75181b02bd155b9343137cbe9b27445/graph?utm_source=share_popup&utm_medium=copy_link&utm_campaign=share_graph)
 <details><summary>abstract</summary><div>
 動的ソーシャルネットワークにおける進化イベントの識別精度が低いという問題に対して、ノードの影響と多属性融合に基づくコミュニティ進化モデル(EMNI)が提案されています。まず、ノードのトポロジカル構造情報はランダムウォークと局所クラスタリング係数によって取得され、ノードの影響はノードのトポロジカル構造に従って評価されます。次に、コミュニティ類似性判別の精度を向上させるために、多属性融合に基づくコミュニティ類似性識別方法を提案します。モデルEMNIは、コミュニティの安定性とコミュニティの違いの特性を組み合わせ、7つの進化イベントを再定義しました。最後に、コミュニティの進化イベントの特定におけるEMNIモデルの有効性が、さまざまなデータセットで検証されます。実験結果は、EMNIモデルがGED、PECT、SGCIよりも優れていることを示しており、GED、PECT、SGCIはより進化的なイベントを特定でき、イベントの分布もよりバランスが取れています。
 </div></details> 
