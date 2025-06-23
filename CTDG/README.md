@@ -53,15 +53,15 @@ CTDGを用いたフェイクニュース検出の代表的研究．時間的に�
 
 ### 2. Temporal graph networks for deep learning on dynamic graphs (2020)
 [[Paper]](https://arxiv.org/abs/2006.10637)
-[[Code]]()
+[[Code]](https://github.com/twitter-research/tgn/tree/master)
 [[bibtex]]()
 <details><summary>summary</summary><div>
-TGNsの提案．TGATがベースになっている．TGNFのバックボーンは(おそらく)これ．論文の内容にしっかり目を通して要確認．
+TGNsの提案．TGATがベースになっている?TGNFのバックボーンはこれ．論文の内容にしっかり目を通して要確認．
 
 
 - 著者: "E. Rossi et al."
 - 出版年: 2020
-- 出版元: arxiv
+- 出版元: ICML2020
 - インパクト: TGNFのバックボーン
 
 - Keywords : `CTDG`, `Temporal Graph`, `Dynamic Graph`
@@ -78,6 +78,31 @@ TGNsの提案．TGATがベースになっている．TGNFのバックボーン�
 本稿では、「テンポラルグラフネットワーク（TGN）」を提案します。これは、時間情報付きイベントのシーケンスとして表現される動的グラフに対する深層学習のための、汎用的かつ効率的なフレームワークです。TGNは、メモリモジュールとグラフベースの演算子という新たな組み合わせにより、既存のアプローチの性能を大幅に上回りつつ、同時により高い計算効率を実現します。
 
 さらに、動的グラフで学習を行ういくつかの既存モデルが、我々のフレームワークの特殊なインスタンスとして位置づけられることも示します。我々は、本フレームワークの様々な構成要素について詳細なアブレーションスタディ（除去実験）を行い、動的グラフにおける複数の変換的（transductive）および帰納的（inductive）な予測タスクにおいて、最先端の性能を達成する最適な構成を考案しました。
+</div></details>
+
+### 3. Temporal graph networks for deep learning on dynamic graphs (2020)
+[[Paper]](https://arxiv.org/abs/2006.10637)
+[[Code]](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs)
+[[bibtex]]()
+<details><summary>summary</summary><div>
+TGATの提案．
+
+
+- 著者: "Da Xu et al."
+- 出版年: 2020
+- 出版元: ICLR2020
+- インパクト: TGNsのベースとなったモデル
+
+- Keywords : `CTDG`, `Temporal Graph`, `Dynamic Graph`
+- 関連論文: ``
+- 引用数: `817`
+- 実装検証: `未`
+
+
+</div></details> 
+
+<details><summary>abstract</summary><div>
+
 </div></details>
 
 ---
@@ -114,3 +139,4 @@ TGNsの提案．TGATがベースになっている．TGNFのバックボーン�
 4. 実験結果と評価
 5. 研究の意義や将来の展望
 </div></details>
+
