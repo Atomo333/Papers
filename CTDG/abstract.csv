@@ -1,7 +1,7 @@
 No. , Title, Author, Year,Abstract,URL
 1,Temporally evolving graph neural network for fake news detection,"Chenguang Song / Kai Shu / Bin Wu",2021,CTDGを用いたフェイクニュース検出の代表的研究,https://www.sciencedirect.com/science/article/pii/S0306457321001965
-2,,,,,
-3,,,,,
+2,Temporal graph networks for deep learning on dynamic graphs,E. Rossi et al.,2020,CTDGを処理する機構．TGNF[1]でバックボーンとして利用された可能性．TGNs,https://arxiv.org/abs/2006.10637
+3,Inductive Representation Learning on Temporal Graphs,Da Xu et al,2020,CTDGを処理する機構．TGAT．TGNF[1]でバックボーンとして利用された可能性,https://arxiv.org/abs/2002.07962
 4,,,,,
 5,,,,,
 6,,,,,
