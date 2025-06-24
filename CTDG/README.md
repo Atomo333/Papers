@@ -80,8 +80,8 @@ TGNsの提案．TGATがベースになっている?TGNFのバックボーンは�
 さらに、動的グラフで学習を行ういくつかの既存モデルが、我々のフレームワークの特殊なインスタンスとして位置づけられることも示します。我々は、本フレームワークの様々な構成要素について詳細なアブレーションスタディ（除去実験）を行い、動的グラフにおける複数の変換的（transductive）および帰納的（inductive）な予測タスクにおいて、最先端の性能を達成する最適な構成を考案しました。
 </div></details>
 
-### 3. Temporal graph networks for deep learning on dynamic graphs (2020)
-[[Paper]](https://arxiv.org/abs/2006.10637)
+### 3. Inductive Representation Learning on Temporal Graphs (2020)
+[[Paper]](https://openreview.net/pdf?id=rJeW1yHYwH)
 [[Code]](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs)
 [[bibtex]]()
 <details><summary>summary</summary><div>
@@ -91,7 +91,7 @@ TGATの提案．
 - 著者: "Da Xu et al."
 - 出版年: 2020
 - 出版元: ICLR2020
-- インパクト: TGNsのベースとなったモデル
+- インパクト: TGNsのベースとなったモデル?
 
 - Keywords : `CTDG`, `Temporal Graph`, `Dynamic Graph`
 - 関連論文: ``
