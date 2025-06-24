@@ -105,6 +105,39 @@ TGATの提案．
 
 </div></details>
 
+### 4. Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks (2019)
+[[Paper]](https://dl.acm.org/doi/abs/10.1145/3292500.3330895)
+[[Code]]()
+[[bibtex]]()
+<details><summary>summary</summary><div>
+  
+JODIE．バッチ処理について記述されている？
+
+- 著者: "主著者名 / 共著者名1 / 共著者名2 ..."
+- 出版年: YYYY
+- 出版元: ジャーナル/会議名
+- インパクト: 重要な貢献，新しい手法，結果や評価指標
+
+- Keywords : `CTDG`, `Temporal Graph`, `Dynamic Graph`
+- 関連論文: `関連する論文へのリンクや名称`
+- 引用数: `928`
+- 実装検証: `一部（TGNにベースラインとして用意されている）`
+
+
+</div></details> 
+
+<details><summary>abstract</summary><div>
+ここに論文のアブストラクトや詳細な要約を記入します．元の論文のアブストラクトを翻訳したものや，重要なポイントを強調したり，【重要な概念】などをハイライトしたりすることで，後で参照する際に役立ちます．
+
+アブストラクトでは以下のポイントを含めることが推奨されます：
+1. 研究の背景と問題設定
+2. 既存手法の課題
+3. 提案手法の新規性
+4. 実験結果と評価
+5. 研究の意義や将来の展望
+</div></details>
+
+
 ---
 
 ## テンプレート（新規論文追加用）
