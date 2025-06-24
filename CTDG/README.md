@@ -4,7 +4,7 @@
 
 1. Temporally evolving graph neural network for fake news detection (2021)
 2. Temporal graph networks for deep learning on dynamic graphs (2020)
-3. 
+3. Inductive Representation Learning on Temporal Graphs (2020)
 4. 
 5. 
 6. 
