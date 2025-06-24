@@ -32,7 +32,7 @@
 [[bibtex]]()
 <details><summary>summary</summary><div>
   
-CTDGを用いたフェイクニュース検出の代表的研究．時間的に変化するグラフを使用して，ソーシャルメディア上のフェイクニュースを検出する手法を提案している．手法名TGNF．バックボーンとしてTGAT[2]を利用．さらに敵対的学習を利用したTDN（時間差分ネットワーク）を設計．TDNはコサイン類似度で隣接する時間軸のグラフ特徴量の差を大きくする損失．
+CTDGを用いたフェイクニュース検出の代表的研究．時間的に変化するグラフを使用して，ソーシャルメディア上のフェイクニュースを検出する手法を提案している．手法名TGNF．バックボーンとしてTGN[2]を利用．さらに敵対的学習を利用したTDN（時間差分ネットワーク）を設計．TDNはコサイン類似度で隣接する時間軸のグラフ特徴量の差を大きくする損失．メモリモジュールを使っているのでTGATではなくTGNと考えるのが妥当．
 
 - 著者: "Chenguang Song / Kai Shu / Bin Wu"
 - 出版年: 2021
@@ -56,7 +56,7 @@ CTDGを用いたフェイクニュース検出の代表的研究．時間的に�
 [[Code]](https://github.com/twitter-research/tgn/tree/master)
 [[bibtex]]()
 <details><summary>summary</summary><div>
-TGNsの提案．TGATがベースになっている?TGNFのバックボーンはこれ．論文の内容にしっかり目を通して要確認．
+TGNの提案．TGAT[3]がベースになっている?TGNFのバックボーンはこれ．論文の内容にしっかり目を通して要確認．TGATにメモリモジュールを追加したものがTGN．
 
 
 - 著者: "E. Rossi et al."
@@ -65,9 +65,9 @@ TGNsの提案．TGATがベースになっている?TGNFのバックボーンは�
 - インパクト: TGNFのバックボーン
 
 - Keywords : `CTDG`, `Temporal Graph`, `Dynamic Graph`
-- 関連論文: ``
+- 関連論文: `Inductive Representation Learning on Temporal Graphs`
 - 引用数: `963`
-- 実装検証: `未`
+- 実装検証: `進行中`
 
 
 </div></details> 
