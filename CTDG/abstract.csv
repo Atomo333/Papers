@@ -3,7 +3,7 @@ No. , Title, Author, Year,Abstract,URL
 2,Temporal graph networks for deep learning on dynamic graphs,E. Rossi et al.,2020,CTDGを処理する機構．TGNF[1]でバックボーンとして利用された可能性．TGNs,https://arxiv.org/abs/2006.10637
 3,Inductive Representation Learning on Temporal Graphs,Da. Xu et al,2020,CTDGを処理する機構．TGAT．TGNF[1]でバックボーンとして利用された可能性,https://arxiv.org/abs/2002.07962
 4,Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks,S. Kumar et al.,2019,CYDGを処理する機構．JODIE．バッチ処理について記述．,https://dl.acm.org/doi/abs/10.1145/3292500.3330895
-5,,,,,
+5,Each Fake News is Fake in its Own Way: An Attribution Multi-Granularity Benchmark for Multimodal Fake News Detection,Hao Guo et al., 2025, AAAI2025で発表された論文．PBL発表候補,https://ojs.aaai.org/index.php/AAAI/article/view/31999
 6,,,,,
 7,,,,,
 8,,,,,
