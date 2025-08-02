@@ -5,9 +5,9 @@
 1. Temporally evolving graph neural network for fake news detection (2021)
 2. Temporal graph networks for deep learning on dynamic graphs (2020)
 3. Inductive Representation Learning on Temporal Graphs (2020)
-4. 
-5. 
-6. 
+4. Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks (2019)
+5. Each Fake News is Fake in its Own Way: An Attribution Multi-Granularity Benchmark for Multimodal Fake News Detection (2025)
+6. TP-GNN: Continuous Dynamic Graph Neural Network for Graph Classification (2024)
 7. 
 8. 
 9. 
@@ -170,6 +170,76 @@ eコマース、ソーシャルネットワーキング、教育といった領�
 
 この((ギャップを埋める (bridge the gap)))ために，私たちは((属性付けされたマルチグラニュラリティマルチモーダル偽ニュース検出データセット (attributing multi-granularity multimodal fake news detection dataset)))である((AMG))を構築し，((内在する偽パターン (inherent fake pattern)))を明らかにしました。さらに，マルチモーダル偽ニュースの検出と属性付けを行うために，((マルチグラニュラリティ手掛かりアライメントモデル (multi-granularity clue alignment model)))である((MGCA))を提案します。実験結果は，AMGが((挑戦的なデータセット (challenging dataset)))であり，その((属性付け設定 (attribution setting)))が((将来の研究に新たな道 (new avenues for future research)))を開くことを示しています。
 
+</div></details>
+
+### 6. TP-GNN: Continuous Dynamic Graph Neural Network for Graph Classification (2024)
+[[Paper]](https://ieeexplore.ieee.org/document/10598033)
+[[Code]](https://github.com/Jie-0828/TP-GNN)
+[[bibtex]]()
+<details><summary>summary</summary><div>
+  
+グラフ分類タスク用に設計された連続的な動的グラフニューラルネットワークTP-GNNを提案．
+
+- 著者: "Jie Liu et al."
+- 出版年: 2024
+- 出版元: IEEE
+- インパクト:グラフ分類に特化したCTDGモデルは少ない
+
+- Keywords : `Dynamic Graph`, `Graph Neural Network`, `Graph Classification`
+- 関連論文: `関連する論文へのリンクや名称`
+- 引用数: `8`
+- 実装検証: `実施済`
+
+
+</div></details> 
+
+<details><summary>abstract</summary><div>
+
+### 論文概要：TP-GNN: グラフ分類のための連続的動的グラフニューラルネットワーク
+
+この論文は、**動的ネットワークにおけるグラフ全体の分類**という新しい課題に取り組むための、**TP-GNN (Temporal Propagation-Graph Neural Network)** という新しいフレームワークを提案しています。
+
+---
+
+#### 従来研究の課題
+
+既存の動的グラフニューラルネットワーク（DGNN）には、主に以下の3つの限界がありました。
+
+1.  **グラフ単位のタスクへの未対応**
+    既存のDGNNは、ネットワーク内の個々のノードやエッジの予測（リンク予測など）に焦点を当てており、グラフ全体を分類するタスクはサポートされていませんでした。
+2.  **長期的な時間依存性の欠如**
+    従来の手法は、数ホップ先の近隣ノードからの情報しか集約しないため、ネットワーク内で時間的に離れて発生するイベント間の関連性（長期的な時間依存性）を捉えることが困難でした。
+3.  **大域的なネットワーク進化の無視**
+    ネットワークがどのように時間変化していくかという、エッジが生成される大域的な順序情報をモデル化できていませんでした。
+
+---
+
+#### 提案手法：TP-GNN
+
+TP-GNNは、これらの課題を解決するために、主に2つの新しいコンポーネントを導入しています。
+
+1.  **時間的伝播 (Temporal Propagation)**
+    * ネットワーク内の**「情報の流れ」**の方向に沿ってメッセージを伝播させる、新しいメッセージパッシング手法です。
+    * あるノードに影響を与えうる全ての過去のノード（影響ノード）からの情報を時系列に沿って集約することで、**長期的な時間的依存性**を捉えることができます。
+    * 更新方法として、シンプルな合計を用いる「SUM-updater」と、より複雑な変化を捉える「GRU-updater」の2種類を提案しています。
+
+2.  **大域的時間埋め込み抽出器 (Global Temporal Embedding Extractor)**
+    * 時間的伝播によって得られたノードの情報を基に、エッジが生成された**時系列順**にGRU（Gated Recurrent Unit）に入力します。
+    * これにより、ネットワーク全体がどのように進化していくかという大域的なパターンを学習し、グラフ全体を表す埋め込みベクトルを生成します。
+
+---
+
+#### 実験と成果
+
+* 自作のJavaフォーラムのログデータセットを含む5つの多様なデータセットを用いて評価を行いました。
+* 実験の結果、TP-GNNは既存の静的グラフモデルや他のDGNNと比較して、**F1スコアで平均4.91%、最大で9.86%高い性能**を示し、その優位性を証明しました。
+* 各コンポーネントが性能向上に寄与していることをアブレーションスタディ（要素別評価）によって確認しました。
+
+---
+
+#### 結論
+
+本研究は、動的グラフにおけるグラフ分類タスクに初めて本格的に取り組んだものです。提案手法であるTP-GNNは、情報の流れに注目した「時間的伝播」と、ネットワーク全体の進化を捉える「大域的時間埋め込み抽出器」により、従来手法では困難だった長期的な時間依存性を効果的に学習し、高い分類精度を達成しました。
 </div></details>
 
 
