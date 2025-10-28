@@ -24,8 +24,8 @@
 | :--- | :--- |
 | [1] TEMPORAL MISINFORMATION DETECTION： SIMPLE WAYS TO IMPROVE TEMPORAL GENERALIZATION AND BETTER EVALUATE LANGUAGE MODELS (2026) | 既存研究の時間的汎化能力に対する問題提起，データセットの作成 |
 | [2] Learn over Past, Evolve for Future: Forecasting Temporal Trends for Fake News Detection (2023) | トピックの『流行り廃り』を時系列予測し、未来のフェイクニュース検出に備える実践的な研究 |
-| [3] Unseen Fake News Detection Through Casual Debiasing (2025) | ドメイン依存バイアスを因果モデルを用いて |
-| (論文のタイトル) | (ここにコメントを記述) |
+| [3] Unseen Fake News Detection Through Casual Debiasing (2025) | ドメイン依存バイアスを因果モデルを用いて解決．ニュースの真偽に関係する本質的特徴と特定のドメインに固有な特徴を分離して学習．グラフ構造を利用． |
+| [4] Revisiting Fake News Detection: Towards Temporality-aware Evaluation by Leveraging Engagement Earliness | グラフベースの手法．エンゲージメントの速さに注目．遅い反応はノイジー，早い反応はシグナルとなる． |
 | (論文のタイトル) | (ここにコメントを記述) |
 | (論文のタイトル) | (ここにコメントを記述) |
 | (論文のタイトル) | (ここにコメントを記述) |
