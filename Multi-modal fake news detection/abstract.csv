@@ -1,7 +1,7 @@
 No. , Title, Year,Comment,URL,Code
 1,A systematic review of multimodal fake news detection on social media using deep learning models,2025,Survey paper on multimodal detection method.,https://www.sciencedirect.com/science/article/pii/S2590123025008291,
-2,SAFE: Similarity-Aware Multi-Modal Fake News Detection,2020,Fundamental research.Cite 556.,https://arxiv.org/abs/2003.04981,
-3,,,,,
+2,SAFE: Similarity-Aware Multi-Modal Fake News Detection,2020,Fundamental research. Cite 556. I couldn’t implement.,https://arxiv.org/abs/2003.04981,https://github.com/Jindi0/SAFE?tab=readme-ov-file
+3,Balanced Multi-modal Learning with Hierarchical Fusion for Fake News Detection,2025,This is MFND method. They addressed the isu of modality imbalance.,https://www.sciencedirect.com/science/article/abs/pii/S0031320325001451,
 4,,,,,
 5,,,,,
 6,,,,,
