@@ -43,9 +43,28 @@
 ### コンテンツベース手法
 
 テキストや画像，動画など，”ニュースそのものに付随する情報のみ"を基に検出を行う手法．
+初期の研究によく見られる．クラスタリングやナイーブベイズなど，古典的手法が多い．
 
+[Towards News Verification: Deception Detection Methods for News Discourse(2015)[224]](https://sites.socsci.uci.edu/~lpearl/courses/readings/RubinEtAl2015_DeceptionDetectionNews.pdf)
+- 談話特徴の類似性に基づいてニュースをクラスタリング
+- 非常に古い手法．精度は63%ほど．
+
+[Fake News Detection (2018)[135]](https://ieeexplore.ieee.org/abstract/document/8546944)
+- ナイーブベイス分類器によってFacebookのニュースを分類
+- タイトルとテキストを用いて検出　典型的なコンテンツベース手法
+
+[]()
 
 ### コンテキストベース手法
 
 ニュースの投稿者情報や返信，あるいは伝播情報など，ニュースに関連する外部情報を基に検出を行う手法．
 ニュースの社会的文脈をモデルに理解させることで検出精度の向上を図る．
+
+[Beyond News Contents: The Role of Social Context for Fake News Detection(2019)[876]](https://dl.acm.org/doi/abs/10.1145/3289600.3290994)
+- 出版社とニュースの関係，ユーザとニュースの相互作用をモデル化したTriFNを提案
+- 
+
+### 伝播ベース手法
+
+コンテキストベース手法の中でも特に，情報の伝播構造に着目した手法．
+提案手法もこれに属する．
